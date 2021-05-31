@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+body{
+    background: rgb(238, 228, 228);
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+    /* font-family: 'Roboto', sans-serif; */
+
+.navbar{
+    background:white;
+    margin:5px;
+    padding:0px ;
+    position:relative;
+    z-index:1;
+}
+
+.navbar .container{
+  display:grid;
+  grid-template-columns:150px auto;
+  justify-content:unset;
+}
+
+.navbar nav{
+ display:flex;
+ justify-content: space-between;
+ background: none;
+ position: unset;
+ height: 100%;
+ width:100%;
+ 
+}
+
+.primary-nav{
+    display:flex;
+    padding:10;
+
+}
+li{
+    
+    display:inline-block
+}
+a{
+    color:black;
+    font-size:.9em;
+    padding:1em;
+    text-decoration: none;
+    
+}
+a:hover{
+   text-transform:uppercase;
+   transition:.3s ease;
+   color:blue;
+}
+
+
+
+
+ul.primary-nav{
+    padding-top:30px;
+}
+ul.secondary-nav{
+    padding-top:30px;
+}
+
+    form.example input[type=text] {
+        padding:5px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width:200px;
+        margin:auto;
+        background: #f1f1f1;
+      }
+  
+      form.example button {
+        float: left;
+        /* width: 20%; */
+        margin:auto;
+        padding:5px;
+        background: #ee430f;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+      }
+      
+  
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      h1{
+        font-family: 'Roboto', sans-serif;
+          text-align: center;
+          background: green;
+      }
+
+      footer{
+          padding-top:300px;
+      }
+
+      .navbar .container img{
+      width:100%;
+      height:100%;
+      
+      }
+
+      .section1 .container{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        text-shadow: teal;
+        border: tomato;
+        text-emphasis-color: yellow;
+        
+      }
+      ul.prime-nav{
+        font-weight: 800;
+        font-family: 'Roboto';
+        float:right;
+      }
+
+      li.second-nav{
+        font-weight: 800;
+        font-family: 'Roboto';
+        float:left;
+      }
+
+      .f1{
+        text-align: center;
+      }
